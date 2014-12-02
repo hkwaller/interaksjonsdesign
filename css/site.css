@@ -1,0 +1,234 @@
+/***************************
+
+    NAVBAR
+
+***************************/
+
+.navbar-white li a {
+    color: #fff !important;
+    font-weight: 100;
+}
+
+
+
+#logo {
+    width: 90px;
+    height: 100px;
+}
+
+
+.navbar-main {
+    background: #5D9CEC;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-main ul li a {
+    color: #fff;
+    height: 5em;
+    font-size: 1.3em;
+    padding: 2em 2.5em;
+    
+}
+
+.navbar-main ul li a:hover {
+    color: #3079d4;
+}
+
+.navbar-main ul li a:active {
+    color: #214e86;
+}
+
+.four-em-height {
+    height: 4em;
+}
+
+
+
+@media (min-width: 900px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-center {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+
+    #logo {
+        width: 120px;
+        height: 100px;
+    }
+    
+    .custom-panel {
+        padding: 0.5em 0 !important;
+        background: #59ABE3;
+        height: 6em !important;
+        margin: 0 0 3em 1.5em !important;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .custom-panel h3 {
+        font-size: 1em;
+        cursor: pointer;
+    }
+    
+    .weather-jumbo {
+        padding: 1em 1em 3em 3em !important;
+    }
+    
+    .weather-table {
+        font-size: 1.2em !important;
+    }
+    
+    
+}
+
+@media (min-width: 481px) and (max-width: 1220px) {
+    
+    .navbar-main ul li a {
+        color: #fff;
+        height: 2em;
+        font-size: 1em;
+        padding: 1em 1.4em;
+    }
+    
+    
+}
+
+.big-panel {
+    padding: 2em;
+}
+
+.navbar-header button {
+    color: #fff;
+    
+}
+
+.white-text {
+    color: #fff;
+}
+
+.grey-background {
+    background: #e6e9ed;
+}
+
+.btn-blue {
+    background: #5D9CEC;
+    width: 6em;
+    border-radius: 0 !important;
+}
+
+.form-search input {
+    border-radius: 0 !important;
+}
+
+.four-em-height {
+    height: 4em;
+}
+
+.four-em-height p {
+    font-size: 1.4em;
+    margin-top: .4em;
+}
+
+.breadcrumb {
+    margin: 0;
+    background: #CCD1D9;
+    border-radius: 0;
+}
+
+.custom-well {
+    padding-top: 2em;
+}
+
+.row {
+    margin-right: 0;
+}
+.nav-tabs, .tab-content {
+    background: #fff;
+    height: 100%;
+}
+
+.nav-tabs {
+    width: 30%;
+}
+
+.news-panel {
+    padding: 3em 0;
+    background: 0;
+}
+
+.left-padding {
+    padding-left: 1em;
+}
+
+.tab-content h3 {
+    margin-top: 0;
+    width: 70%
+}
+
+.tab-content {
+    padding: 2em;
+}
+
+.custom-panel {
+    padding: 5em 0;
+    background: #59ABE3;
+    height: 17em;
+    margin: 0 0 4em 0;
+    color: #fff;
+}
+
+.custom-panel:last-child {
+    padding: 5em 0 5em 0;
+}
+
+.navbar-villages {
+    background: #ED5565;
+    padding-left: 4em;
+}
+
+.custom-panel h3 {
+    font-weight: 100;
+}
+
+
+.navbar-white-small {
+    background: #fff;
+}
+
+.small-logo {
+    height: 8%;
+    width: 8%;
+    margin-left: 2em;
+}
+
+.pull-left h4 {
+    margin-left: 2em;
+}
+
+.weather-jumbo {
+    padding: 1em 3em 5em 3em;
+}
+
+.white-background {
+    background: #fff;
+}
+
+.weather-heading {
+    padding: 1em;
+}
+
+.weather-table {
+    font-size: 2em;
+}
+
+.weather-table tr td:first-child {
+    padding-right: 3em;
+}
