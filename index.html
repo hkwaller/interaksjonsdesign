@@ -5,12 +5,12 @@
             <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
             <link rel="stylesheet" href="https://bootflat.github.io/bootflat/css/bootflat.css">
             <link rel="stylesheet" href="css/site.css">
+            <meta charset="UTF_-8">
         </head>
  
         <body>
             <nav class="navbar navbar-inverse" role="navigation">
                 <div class="navbar-header">
-                    
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main">
                         Huvudmeny
                     </button> 
@@ -59,7 +59,7 @@
                         <small>En pärla på Sveriges framsida</small>
                     </div>
                     <div class="col-md-6 col-xs-12 custom-well">
-                        <div class="input-group form-search">
+                        <div class="input-group form-search pull-right">
                           <input type="text" class="form-control search-query four-em-height">
                           <span class="input-group-btn">
                             <button type="submit" class="btn btn-primary btn-blue four-em-height" data-type="last"><p>Sök</p></button>
@@ -90,9 +90,9 @@
               <li><a href="#">Hem</a></li>
               <li>Startsida</li>
               <li class="pull-right hidden-xs">Dagens datum: 7 december 2014</li>
-              <li class="pull-right visible-xs">7/12/</li>
+              <li class="pull-right visible-xs">7/12/14</li>
             </ol>
-            <div class="grey-background">
+            <div class="grey-background city-background">
                 <div class="container">
                     <div class="row">
                         <div class="news-panel">
@@ -166,9 +166,18 @@ Bohusläningen har pratat med restaurangens ägare som hed restaurangens ägare 
                 </div> 
                
             </div>
-   <nav class="navbar navbar-center navbar-main navbar-villages hidden-xs" role="navigation">
-                      <ul class="nav navbar-nav">
-                        <li><a href="#"><b>Besök</b></a></li>
+            </div>
+            
+            <nav class="navbar navbar-main navbar-villages" role="navigation">
+                <div class="navbar-header pull-left">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-village">
+                        Besök samhälle<span class="caret"></span>
+                    </button>
+                
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-village">
+                  <ul class="nav navbar-nav navbar-white">
+                        <li class="hidden-xs"><a href="#"><b>Besök</b></a></li>
                         <li><a href="#">Hunnebostrand</a></li>
                         <li><a href="#">Smögen</a></li>
                         <li><a href="#">Kungshamn</a></li>
@@ -176,7 +185,23 @@ Bohusläningen har pratat med restaurangens ägare som hed restaurangens ägare 
                         <li><a href="#">Väjern</a></li>
                         <li><a href="#">Malmön</a></li>
                       </ul>
-                </nav>
+                    </li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+                <div class="collapse navbar-collapse navbar-center" id="navbar-main">
+                  <ul class="nav navbar-nav navbar-white visible-xs">
+                    <li><a href="#">Bo</a></li>
+                    <li><a href="#">Skola</a></li>
+                    <li><a href="#">Arbete</a></li>
+                    <li><a href="#">Hälsa</a></li>
+                    <li><a href="#">Kultur</a></li>
+                    <li><a href="#">Turism</a></li>
+                    <li><a href="#">Räddning</a></li>
+                    <li><a href="#">Företagare</a></li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
             <div class="container-fluid white-background">
                 <div class="row">
                     <h3 class="weather-heading">Dagens väder i Sotenäs</h2>
@@ -208,7 +233,6 @@ Bohusläningen har pratat med restaurangens ägare som hed restaurangens ägare 
                 </div>
             </div>
          
-                <div class="row">
                 <div class="footer">
                   <div class="container">
                     <div class="clearfix">
