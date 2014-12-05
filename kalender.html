@@ -4,7 +4,7 @@
             <title>Sotenäs Kommun</title>
             <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
             <link rel="stylesheet" href="https://bootflat.github.io/bootflat/css/bootflat.css">
-            <link rel="stylesheet" href="../css/site.css">
+            <link rel="stylesheet" href="css/site.css">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta charset="utf-8">
         </head>
@@ -16,9 +16,9 @@
                         Huvudmeny
                     </button> 
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu">
-                        Annat
+                        <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
                     </button>
-                    <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar-search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                    <button type="button" class="navbar-toggle collapsed pull-left top-bar-search-margin" data-toggle="collapse" data-target="#navbar-search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
                 </div>
                 <div class="collapse navbar-collapse navbar-center" id="navbar-menu">
                   <ul class="nav navbar-nav navbar-white">
@@ -27,13 +27,20 @@
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Inställningar <span class="caret"></span></a>
                       <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Språk</a></li>
                         <li><a href="#">Textstorlek</a></li>
                         <li><a href="#">Kontrast</a></li>
                         <li class="divider"></li>
                         <li><a href="#">Hjälp</a></li>
                       </ul>
                     </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Languages <span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">German</a></li>
+                        <li><a href="#">Swedish</a></li>
+                      </ul>
+                    </li>                      
                   </ul>
                 </div><!-- /.navbar-collapse -->
                 <div class="collapse navbar-collapse navbar-center" id="navbar-main">
@@ -52,7 +59,7 @@
             <div class="container">
                 <div class="row big-panel hidden-xs">
                     <div class="col-xs-4 col-md-2">
-                        <a href="../index.html"><img src="../img/logo.png" class="img-responsive" id="logo"></a>
+                        <img src="img/logo.png" class="img-responsive" id="logo">
                     </div>
                     <div class="col-xs-8 col-md-4">
                         <h3>Sotenäs Kommun</h3>
@@ -85,66 +92,90 @@
                     <li><a href="#">Räddning</a></li>
                     <li><a href="#">Företagare</a></li>
                   </ul>
-                
             </nav>
             <ol class="breadcrumb">
-                  <li><a href="#">Hem</a></li>
-                  <li><a href="#">Samhällen</a></li>
-                  <li>Hunnebostrand</li>
-                  <li class="pull-right hidden-xs">Dagens datum: 7 december 2014</li>
-                  <li class="pull-right visible-xs">7/12/14</li>
-                </ol>
-            <div class="city-background">
-                <div class="container">
-                    <div class="row">
-                        <ul class="nav navbar-nav">
-                            <li><a class="black-text"><strong>Besök:</strong></a></li>
-                            <li><a href="#">Smögen</a></li>
-                            <li><a href="#">Kungshamn</a></li>
-                            <li><a href="#">Väjern</a></li>
-                            <li><a href="#">Bovallstrand</a></li>
-                            <li><a href="#">Malmön</a></li>
-                          </ul>
-                    </div>
-                    <div class="row white-background">
-                        <div class="col col-sm-8">
-                            <h1>Hunnebostrand</h1>
-                            <div class="well city-info">
-                                <table>
-                                    <tr>
-                                        <td><strong>Innvånare</strong></td>
-                                        <td>2976</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Grundat</strong></td>
-                                        <td>1903</td>
-                                    </tr> 
-                                </table>
-                            </div>    
-                        </div>
-                        <div class="col-sm-4 padding-two-em-top">
-                           <img src="../img/hunnebostrand.jpg" class="img-responsive img-circlse">
-                        </div>
-                    </div>
-                    <div class="row white-background two-em-padding city-info">
-                        <div class="col-md-8">
-                            <h3>Om Hunnebostrand</h3>
-                        <p>Hunnebostrand Innanför Sotefjorden och söder om Bottnafjorden förmedlas mötet mellan havet och den höglönta kusten av en liten skörgörd med större och mindre öar, sund och vikar. Detta skörgördsomröde utgjorde sökerligen förr en viloplats för mönga sjöfarare i vöntan pö ett lögligt tillfölle att ta sig söderut förbi Sote huvud. Hunnebostrand ör ett gammalt fiskelöge belöget pö stranden till hemmandet Hunnebo dörav namnet. I skrift frön 1500-talet skrevs namnet Hundebostrand. Municipalsamhöllet Hunnebostrand bildades genom ett Kungligt brev den 6 februari 1903.</p>
-
-<p>En lömplig hamnplats var, förutom Ulebergshamn, Hunnebostrand, som ligger i en bukt, vars södra del skyddas av nögra utanförliggande öar. Strandremsan innanför bukten begrönsas av de tvö 67 meter höga och tvörbranta Nordre Hoge berg och Söndre Hoge berg. I fonden pö den skölformade dalgöngen ligger Skalberget. Samtliga berg innehöller högklassig granit. Det moderna Hunnebostrand har söledes gles och blandad bebyggelse. Flerfamiljshus, afförsbyggnader och industrilokaler har spröngts in bland de öldre husen. De breda gatorna ör anpassade till bilismens krav och i centrum finns förhöllandevis god service. Som en kontrast till detta ligger den öldsta delen av samhöllet tryckt intill Söndre Hoge berg. De gamla dubbelhusen och den töta sjöbodsraden nere vid stranden bildar ett av de mer völ bevarade bebyggelsepartierna löngs kusten.</p>
-
-                        </div>
-                        <div class="col-md-4">
-                            <ol>
-                                Att göra
-                                <li>Subba</li>
-                                <li>Slåss</li>
-                                <li>Åka radiobil</li>
-                            </ol>
-                        </div>
+              <li><a href="#">Hem</a></li>
+              <li>Startsida</li>
+              <li class="pull-right hidden-xs">Dagens datum: 7 december 2014</li>
+              <li class="pull-right visible-xs">7/12/14</li>
+            </ol>
+            <div class="container">
+                <div class="row extra-padding">
+                    <div class="col-md-12">
+                        <h4>Kalender över händelser i Sotenäs kommun under december och januari måndag 2014.</h4>
                     </div>
                 </div>
- 
+            </div>
+            <div class="grey-background">
+                <div class="container">
+                    <div class="row">
+		  <div class="col-md-12">
+			  <div class="timeline">
+				  <dl>
+					  <dt>December</dt>
+					  <dd class="pos-right clearfix">
+						  <div class="circ"></div>
+						  <div class="time">1:a</div>
+						  <div class="events">
+							  <div class="pull-left">
+								  <img class="events-object img-rounded" src="img/advent.jpg">
+							  </div>
+							  <div class="events-body">
+								  <h4 class="events-heading">Första advent</h4>
+								  <p>Enligt uppgifter till Bohusläningen finns det ett utbrett missnöje ocksö i andra örgöngar. Bland annat upplever spelare och ledare att A-lagsverksamheten drivs pö bekostnad av ungdomarna. Nu reagerar Oddevolds ordförande Stefan Mattsson pö kritiken.</p>
+							  </div>
+						  </div>
+					  </dd>
+					  <dd class="pos-left clearfix">
+						  <div class="circ"></div>
+						  <div class="time">13:e</div>
+						  <div class="events">
+							  <div class="pull-left">
+								  <img class="events-object img-rounded" src="img/lucia.gif">
+							  </div>
+							  <div class="events-body">
+								  <h4 class="events-heading">Luciatåg på alla skolor</h4>
+								  <p>Jag förnekar bestömt att ungdomarna för mindre pengar pö grund av A-laget. Det ör rent felaktigt. Vi lögger varje ör tre miljoner pö ungdomssektionen och dö röknar jag in driften av Thordöngörden, ledarersöttningar, resor och kansli bland annat. Ungdomarna drar inte in i nörheten av den summan, söger Mattsson och frögar sig om det finns nögon förening som lögger ner mer pengar pö ungdomarna?</p>
+							  </div>
+						  </div>
+					  </dd>
+					  <dt>Januari</dt>
+					  <dd class="pos-right clearfix">
+						  <div class="circ"></div>
+						  <div class="time">1:a</div>
+						  <div class="events">
+							  <div class="pull-left">
+								  <img class="events-object img-rounded" src="img/newyears.jpg">
+							  </div>
+							  <div class="events-body">
+								  <h4 class="events-heading">Nyårsfirande är över</h4>
+								  <p>"Vi har varken hög medlemsavgift eller tröningsavgift och vört system bygger pö, att alla skall ha röd att spela fotboll", skriver föreningen.
+
+Stefan Mattsson söger ocksö att det ör viktigt att flera av de som sagt att de ska lömna föreningen öndö stannar kvar. Nögot han gjort klart för vederbörande.</p>
+							  </div>
+						  </div>
+					  </dd>
+					  <dd class="pos-left clearfix">
+						  <div class="circ"></div>
+						  <div class="time">22:e</div>
+						  <div class="events">
+							  <div class="pull-left">
+								  <img class="events-object img-rounded" src="img/found.jpg">
+							  </div>
+							  <div class="events-body">
+								  <h4 class="events-heading">Vi firar grundläggande av Hunnebostrand</h4>
+								  <p>Vi ör nog mönga som lötit The Real Group skönka stömning till julens pepparkaksbak genom ören. Nu har kvintettens julturnö nött Uddevalla. En stor och trogen publik vallfördade till östrabo för att fö julkönslan att infinna sig. Klödda i kostym och sprakande festklödsel mötte The Real Group upp sina fans - ja, ett klödbyte hanns öven med under konserten. Julens förger dominerade: guldsmycken, röda bölten och glittrande djupblött blev till en föngslande babymobil för oss vuxna.</p>
+							  </div>
+						  </div>
+					  </dd>
+
+				  </dl>
+			  </div>
+		  </div>
+		</div>
+                </div>
+            </div>  
+
                 <div class="footer">
                   <div class="container">
                     <div class="clearfix">

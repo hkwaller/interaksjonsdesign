@@ -252,10 +252,6 @@
         font-size: 1em;
         padding: 1em 1.4em;
     }
-    
-    
-    
-    
 }
 .black-text {
     color: #000;
@@ -270,4 +266,26 @@
     display:inline-block;
     vertical-align:middle;
     margin-right:-4px;
+}
+
+.city-info {
+    padding: 3em;
+    font-size: 1.3em;
+}
+
+.well.city-info {
+    background: #ecf0f1;
+}
+.city-info tr td:first-child {
+    padding-right: em;
+}
+.city-info table {
+    width: 100%;
+}
+.padding-two-em-top {
+    padding-top: 3em;
+}
+
+.extra-padding {
+    padding: 3em;
 }
