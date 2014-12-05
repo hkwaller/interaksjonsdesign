@@ -9,13 +9,10 @@
     font-weight: 100;
 }
 
-
-
 #logo {
     width: 90px;
     height: 100px;
 }
-
 
 .navbar-main {
     background: #5D9CEC;
@@ -37,80 +34,6 @@
 
 .navbar-main ul li a:active {
     color: #214e86;
-}
-
-.four-em-height {
-    height: 4em;
-}
-
-
-
-@media (min-width: 900px) {
-    .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
-    }
-
-    .navbar .navbar-center {
-        text-align: center;
-    }
-}
-
-@media (max-width: 480px) {
-
-    #logo {
-        width: 120px;
-        height: 100px;
-    }
-    
-    .custom-panel {
-        padding: 0.5em 0 !important;
-        background: #59ABE3;
-        height: 6em !important;
-        margin: 0 0 3em 1.5em !important;
-        color: #fff;
-        cursor: pointer;
-    }
-    
-    .custom-panel h3 {
-        font-size: 1em;
-        cursor: pointer;
-    }
-    
-    .weather-jumbo {
-        padding: 1em 1em 3em 3em !important;
-    }
-    
-    .weather-table {
-        font-size: 1.2em !important;
-    }
-    
-    .navbar-main ul li a {
-        color: #fff;
-        height: 2em;
-        font-size: 1em;
-        padding: 1em 1.4em;
-    }
-    
-    .navbar-main ul li:last-child {
-        padding-bottom: 2em;
-    }
-    
-}
-
-@media (min-width: 481px) and (max-width: 1220px) {
-    
-    .navbar-main ul li a {
-        color: #fff;
-        height: 1em;
-        font-size: 1em;
-        padding: 1em 1.4em;
-    }
-    
-    
-    
-    
 }
 
 .big-panel {
@@ -233,6 +156,9 @@
     background: #fff;
 }
 
+.four-em-height {
+    height: 4em;
+}
 .weather-heading {
     padding: 1em;
 }
@@ -246,6 +172,102 @@
 }
 .city-background {
     background: url('/img/city.png');
-    background-position: center; 
+    background-position: center bottom; 
     background-repeat: repeat-x;
+}
+
+.two-em-padding {
+    padding: 2em;
+}
+
+.city-info p {
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+.city-info p:first-letter {
+    font-size: 2em;
+}
+
+@media (min-width: 900px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-center {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+
+    #logo {
+        width: 120px;
+        height: 100px;
+    }
+    
+    .custom-panel {
+        padding: 0.5em 0 !important;
+        background: #59ABE3;
+        height: 6em !important;
+        margin: 0 0 3em 1.5em !important;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .custom-panel h3 {
+        font-size: 1em;
+        font-weight: 400 !important;
+        cursor: pointer;
+    }
+    
+    .weather-jumbo {
+        padding: 1em 1em 3em 3em !important;
+    }
+    
+    .weather-table {
+        font-size: 1.2em !important;
+    }
+    
+    .navbar-main ul li a {
+        color: #fff;
+        height: 2em;
+        font-size: 1em;
+        padding: 1em 1.4em;
+    }
+    
+    .navbar-main ul li:last-child {
+        padding-bottom: 2em;
+    }
+    
+}
+
+@media (min-width: 481px) and (max-width: 1220px) {
+    
+    .navbar-main ul li a {
+        color: #fff;
+        height: 1em;
+        font-size: 1em;
+        padding: 1em 1.4em;
+    }
+    
+    
+    
+    
+}
+.black-text {
+    color: #000;
+}
+
+.top-bar-search-margin {
+    margin-left: 1em;
+}
+
+.vertical-alignment {
+    float:none;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:-4px;
 }

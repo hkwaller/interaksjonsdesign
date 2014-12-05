@@ -5,7 +5,8 @@
             <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
             <link rel="stylesheet" href="https://bootflat.github.io/bootflat/css/bootflat.css">
             <link rel="stylesheet" href="css/site.css">
-            <meta charset="UTF_-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta charset="utf-8">
         </head>
  
         <body>
@@ -15,9 +16,9 @@
                         Huvudmeny
                     </button> 
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu">
-                        Annat
+                        <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
                     </button>
-                    <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar-search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                    <button type="button" class="navbar-toggle collapsed pull-left top-bar-search-margin" data-toggle="collapse" data-target="#navbar-search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
                 </div>
                 <div class="collapse navbar-collapse navbar-center" id="navbar-menu">
                   <ul class="nav navbar-nav navbar-white">
@@ -26,13 +27,20 @@
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Inställningar <span class="caret"></span></a>
                       <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Språk</a></li>
                         <li><a href="#">Textstorlek</a></li>
                         <li><a href="#">Kontrast</a></li>
                         <li class="divider"></li>
                         <li><a href="#">Hjälp</a></li>
                       </ul>
                     </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Languages <span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">German</a></li>
+                        <li><a href="#">Swedish</a></li>
+                      </ul>
+                    </li>                      
                   </ul>
                 </div><!-- /.navbar-collapse -->
                 <div class="collapse navbar-collapse navbar-center" id="navbar-main">
@@ -47,7 +55,6 @@
                     <li><a href="#">Företagare</a></li>
                   </ul>
                 </div><!-- /.navbar-collapse -->
-              </div><!-- /.container-fluid -->
             </nav>
             <div class="container">
                 <div class="row big-panel hidden-xs">
@@ -93,7 +100,7 @@
               <li class="pull-right visible-xs">7/12/14</li>
             </ol>
             <div class="grey-background city-background">
-                <div class="container">
+                <div class="container city-bdackground">
                     <div class="row">
                         <div class="news-panel">
                             <div class="visible-xs">
@@ -138,7 +145,7 @@ Kommunstyrelsen drar in alkoholtillståndet för restaurangen Ahlgrens fisk & sk
                                         <h3>Sommarsäsongen avslutas</h3>
                                     <p>Med hjälp av skatteverket genomfördes kontrollköp under 2012 och 2013. Enligt ägarens advokat var åren kaotiska men man skriver att man gjort allt för att rätta till problemen. Och, enligt advokaten, har man lyckats.
 <div>– Säsongen 2014 har varit synnerligen intensiv. Någon anmärkning mot verksamheten har överhuvudtaget inte förekommit, skriver advokaten Matthias von Lempruch i ett brev och hävdar att det räcker med en varning.</div>
-<div><br>
+<br><div>
 Bohusläningen har pratat med restaurangens ägare som hed restaurangens ägare som hänvisar till sin advokat. Tidningen har också sökt advokaten, dock utan framgång.</p></div>
 
                                   </div>
@@ -165,9 +172,8 @@ Bohusläningen har pratat med restaurangens ägare som hed restaurangens ägare 
                     </div>
                 </div> 
                
-            </div>
-            </div>
-            
+            </div>  
+</div>
             <nav class="navbar navbar-main navbar-villages" role="navigation">
                 <div class="navbar-header pull-left">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-village">
@@ -178,33 +184,18 @@ Bohusläningen har pratat med restaurangens ägare som hed restaurangens ägare 
                 <div class="collapse navbar-collapse" id="navbar-village">
                   <ul class="nav navbar-nav navbar-white">
                         <li class="hidden-xs"><a href="#"><b>Besök</b></a></li>
-                        <li><a href="#">Hunnebostrand</a></li>
+                        <li><a href="samhallen/hunnebo.html">Hunnebostrand</a></li>
                         <li><a href="#">Smögen</a></li>
                         <li><a href="#">Kungshamn</a></li>
                         <li><a href="#">Bovallstrand</a></li>
                         <li><a href="#">Väjern</a></li>
                         <li><a href="#">Malmön</a></li>
-                      </ul>
-                    </li>
                   </ul>
                 </div><!-- /.navbar-collapse -->
-                <div class="collapse navbar-collapse navbar-center" id="navbar-main">
-                  <ul class="nav navbar-nav navbar-white visible-xs">
-                    <li><a href="#">Bo</a></li>
-                    <li><a href="#">Skola</a></li>
-                    <li><a href="#">Arbete</a></li>
-                    <li><a href="#">Hälsa</a></li>
-                    <li><a href="#">Kultur</a></li>
-                    <li><a href="#">Turism</a></li>
-                    <li><a href="#">Räddning</a></li>
-                    <li><a href="#">Företagare</a></li>
-                  </ul>
-                </div><!-- /.navbar-collapse -->
-              </div><!-- /.container-fluid -->
             </nav>
             <div class="container-fluid white-background">
                 <div class="row">
-                    <h3 class="weather-heading">Dagens väder i Sotenäs</h2>
+                    <h3 class="weather-heading">Dagens väder i Sotenäs</h3>
                     <center>
 ´                   <div class="col-sm-offset-2 col-sm-2 col-xs-6 weather-jumbo">
                         <img src="img/sol.png" alt="sol" class="img-responsive s-left">
