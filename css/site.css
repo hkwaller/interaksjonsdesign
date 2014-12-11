@@ -125,7 +125,7 @@
 }
 
 .navbar-villages {
-    background: #ED5565;
+    background: #FFA600;
     padding-left: 4em;
 }
 
@@ -314,4 +314,12 @@
 }
 .small-padding {
     padding: 1em;
+}
+
+.circ {
+    background-color: #FFA600 !important;
+}
+
+.time {
+    color: #ffa600 !important;
 }
