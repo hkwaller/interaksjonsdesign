@@ -5,7 +5,7 @@
 ***************************/
 
 .navbar-white li a {
-    color: #fff !important;
+    color: #ffc40d !important;
     font-weight: 100;
 }
 
@@ -14,14 +14,15 @@
     height: 100px;
 }
 
+
 .navbar-main {
-    background: #5D9CEC;
+    background: #000;
     margin-bottom: 0;
     border-radius: 0;
 }
 
 .navbar-main ul li a {
-    color: #fff;
+    color: #ffc40d !important;
     height: 5em;
     font-size: 1.3em;
     padding: 2em 2.5em;
@@ -41,16 +42,16 @@
 }
 
 .navbar-header button {
-    color: #fff;
+    color: #ffc40d !important;
     
 }
 
 .white-text {
-    color: #fff;
+    color: #ffc40d !important;
 }
 
 .grey-background {
-    background: #e6e9ed;
+    background: #000;
 }
 
 .btn-blue {
@@ -314,4 +315,13 @@
 }
 .small-padding {
     padding: 1em;
+}
+
+body {
+    background: #000;
+}
+
+.contrast {
+    color: #ffc40d !important;
+    background: #000 !important;
 }

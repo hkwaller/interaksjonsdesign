@@ -28,7 +28,7 @@
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Inställningar <span class="caret"></span></a>
                       <ul class="dropdown-menu" role="menu">
                         <li><a href="#">Textstorlek</a></li>
-                        <li><a href="#">Kontrast</a></li>
+                        <li><a href="#" id="contrast">Kontrast</a></li>
                         <li class="divider"></li>
                         <li><a href="#">Hjälp</a></li>
                       </ul>
@@ -37,15 +37,15 @@
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Languages <span class="caret"></span></a>
                       <ul class="dropdown-menu" role="menu">
                         <li><a href="#">English</a></li>
-                        <li><a href="#">German</a></li>
-                        <li><a href="#">Swedish</a></li>
+                        <li><a href="#">Deutsch</a></li>
+                        <li><a href="#">Svenska</a></li>
                       </ul>
                     </li>                      
                   </ul>
                 </div><!-- /.navbar-collapse -->
                 <div class="collapse navbar-collapse navbar-center" id="navbar-main">
                   <ul class="nav navbar-nav navbar-white visible-xs">
-                    <li><a href="#">Bo</a></li>
+                    <li><a href="bo.html">Bo</a></li>
                     <li><a href="#">Skola</a></li>
                     <li><a href="#">Arbete</a></li>
                     <li><a href="#">Hälsa</a></li>
@@ -62,12 +62,12 @@
                         <img src="img/logo.png" class="img-responsive" id="logo">
                     </div>
                     <div class="col-xs-8 col-md-4">
-                        <h3>Sotenäs Kommun</h3>
-                        <small>En pärla på Sveriges framsida</small>
+                        <h3 class="contrast">Sotenäs Kommun</h3>
+                        <small class="contrast">En pärla på Sveriges framsida</small>
                     </div>
                     <div class="col-md-6 col-xs-12 custom-well">
                         <div class="input-group form-search pull-right">
-                          <input type="text" class="form-control search-query four-em-height" placeholder="Sök på något, ställen, personer, aktiviteter.." >
+                          <input type="text" class="form-control search-query four-em-height" placeholder="Sök på ställen, personer, aktiviteter etc.." >
                           <span class="input-group-btn">
                             <button type="submit"class="btn btn-primary btn-blue four-em-height" data-type="last"><p>Sök</p></button>
                           </span>
@@ -76,14 +76,14 @@
                 </div>
             </div>
                 <div class="row visible-xs">
-                            <div class="navbar navbar-white-small small-padding">
+                            <div class="navbar navbar-white-small small-padding contrast">
                                 <img src="img/logo.png" class="small-logo pull-left" alt="Sotenäs" />
                                 <div class="pull-left"><h4>Sotenäs Kommun</h4></div>
                             </div>
                         </div>
             <nav class="navbar navbar-center navbar-main hidden-xs" role="navigation">
                   <ul class="nav navbar-nav">
-                    <li><a href="#">Bo</a></li>
+                    <li><a href="bo.html">Bo</a></li>
                     <li><a href="#">Skola</a></li>
                     <li><a href="#">Arbete</a></li>
                     <li><a href="#">Hälsa</a></li>
@@ -93,13 +93,13 @@
                     <li><a href="#">Företagare</a></li>
                   </ul>
             </nav>
-            <ol class="breadcrumb">
+            <ol class="breadcrumb contrast">
               <li><a href="#">Hem</a></li>
-              <li>Startsida</li>
+              <li class="active contrast">Startsida</li>
               <li class="pull-right hidden-xs">Dagens datum: 7 december 2014</li>
               <li class="pull-right visible-xs">7/12/14</li>
             </ol>
-            <div class="grey-background city-background">
+            <div class="grey-background city-background contrast">
                 <div class="container city-bdackground">
                     <div class="row">
                         <div class="news-panel">
@@ -113,14 +113,14 @@
                                     </ul>
                             </div>
                             <div class="tabbable tabs-right clearfix">
-                                <ul class="nav nav-tabs hidden-xs">
+                                <ul class="nav nav-tabs hidden-xs contrast">
                                 <h4 class="left-padding hidden-xs">Nyheter</h4>
-                                  <li class="active"><a href="#news1" data-toggle="tab">Hummersäsongen är igång</a></li>
+                                  <li class="active"><a href="#news1" class="contrast" data-toggle="tab">Hummersäsongen är igång</a></li>
                                   <li class=""><a href="#news2" data-toggle="tab">Julkalendern 2014</a></li>
                                   <li class=""><a href="#news3" data-toggle="tab">Ny kommunstyrelse</a></li>
                                   <li class=""><a href="#news4" data-toggle="tab">Sommarsäsongen avslutas</a></li>
                                 </ul>
-                                <div class="tab-content">
+                                <div class="tab-content contrast">
                                   <div class="tab-pane fade active in" id="news1">
                                       <h3>Hummersäsongen är igång</h3>
                                     <p><div>Alliansens Gunnar Selstam (C) gick på samma linje i utskottet – men nu ska han reservera sig.
@@ -129,12 +129,13 @@ I dag, onsdag, ska utbildningsnämnden ta upp frågan om budgeten för nästa å
 När frågan togs upp i utbildningsnämndens arbetsutskott beslutades i enighet att nämnden borde vägra ett sådant sparbeting. Man ansåg helt enkelt inte att kommunen skulle klara uppdraget att ha en likvärdig skola i hela kommunen.</div></p>
                                   </div>
                                   <div class="tab-pane fade" id="news2">
-                                      <h3>Julkalenders 2014</h3>
+                                      <h3>Julkalendern 2014</h3>
                                     <p>Centerpartiets Gunnar Selstam var med när beslutat fattades. Då reserverade han sig inte. Men på dagens möte i utbildningsnämnden tänker han gör det.<br><div>
 – Jag är helt emot att utbildningsnämnden undantas från ramminskningen. Det är självklart.
 Nu menar han att eftersom frågan ändå ska tas upp i utbildningsnämnden så var det inte nödvändigt att reservera sig i utskottet.</div><br><div>
 – Jag kunde ha reserverat mig men vi tar beslutet i nämnden, det här är en liten fråga egentligen.
 Selstam menar att sparbetinget på två procent av skolornas verksamheter inte kommer påverka kvaliteten.</div></p>
+
                                   </div>
                                   <div class="tab-pane fade" id="news3">
                                       <h3>Ny kommunstyrelse</h3>
@@ -155,18 +156,18 @@ Bohusläningen har pratat med restaurangens ägare som hed restaurangens ägare 
                     </div>
                     <div class="row">
                         <div class="col-xs-4">
-                            <a href="kalender.html"><div class="well custom-panel text-center">
+                            <a href="kalender.html"><div class="well custom-panel text-center contrast">
                                 <h3>Kalender</h3>
                             </div></a>
                         </div>
                         <div class="col-xs-4">
-                            <a href="#"><div class="well custom-panel text-center">
-                                <h3>Att göra</h3>
+                            <a href="#"><div class="well custom-panel text-center contrast">
+                                <h3>Viktigt</h3>
                             </div></a>
                         </div>
                         <div class="col-xs-4">
-                            <a href="#"><div class="well custom-panel text-center">
-                                <h3>Turism</h3>
+                            <a href="#"><div class="well custom-panel text-center contrast">
+                                <h3>Historia</h3>
                             </div></a>
                         </div>
                     </div>
@@ -174,7 +175,7 @@ Bohusläningen har pratat med restaurangens ägare som hed restaurangens ägare 
                
             </div>  
 </div>
-            <nav class="navbar navbar-main navbar-villages" role="navigation">
+            <nav class="navbar navbar-main navbar-villages contrast" role="navigation">
                 <div class="navbar-header pull-left">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-village">
                         Besök samhälle<span class="caret"></span>
@@ -193,7 +194,7 @@ Bohusläningen har pratat med restaurangens ägare som hed restaurangens ägare 
                   </ul>
                 </div><!-- /.navbar-collapse -->
             </nav>
-            <div class="container-fluid white-background">
+            <div class="container-fluid white-background contrast">
                 <div class="row">
                     <h3 class="weather-heading">Dagens väder i Sotenäs</h3>
                     <center>
@@ -224,7 +225,7 @@ Bohusläningen har pratat med restaurangens ägare som hed restaurangens ägare 
                 </div>
             </div>
          
-                <div class="footer">
+                <div class="footer contrast">
                   <div class="container">
                     <div class="clearfix">
                       <dl class="footer-nav">
@@ -244,6 +245,7 @@ Bohusläningen har pratat med restaurangens ägare som hed restaurangens ägare 
                         <dd class="nav-item"><a href="#">Karta</a></dd>
                         <dd class="nav-item"><a href="#">Bo</a></dd>
                         <dd class="nav-item"><a href="#">Räddning</a></dd>
+                        <dd class="nav-item"><a href="#">Företagare</a></dd>
                       </dl>
                       <dl class="footer-nav">
                         <dt class="nav-title">Kontakt</dt>
@@ -252,6 +254,7 @@ Bohusläningen har pratat med restaurangens ägare som hed restaurangens ägare 
                         <dd class="nav-item white-text">45041 Kungshamn</dd>
                         <dd class="nav-item white-text">Växel: 0523-30100</dd>
                       </dl>
+                                
                     </div>
                     <div class="footer-copyright text-center">Copyright © 2014 Hannes Waller. All rights reserved.</div>
                   </div>
@@ -265,6 +268,11 @@ Bohusläningen har pratat med restaurangens ägare som hed restaurangens ägare 
             <script src="https://bootflat.github.io/bootflat/js/icheck.min.js"></script>
             <script src="https://bootflat.github.io/bootflat/js/jquery.fs.selecter.min.js"></script>
             <script src="https://bootflat.github.io/bootflat/js/jquery.fs.stepper.min.js"></script>
+            <script>
+                $('#contrast').click(function (){
+   $('link[href="css/site.css"]').attr('href','css/style2.css');
+});
 
+</script>
         </body>
     </html>

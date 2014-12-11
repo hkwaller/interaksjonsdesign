@@ -4,7 +4,7 @@
             <title>Sotenäs Kommun</title>
             <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
             <link rel="stylesheet" href="https://bootflat.github.io/bootflat/css/bootflat.css">
-            <link rel="stylesheet" href="../css/site.css">
+            <link rel="stylesheet" href="css/site.css">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta charset="utf-8">
         </head>
@@ -16,9 +16,9 @@
                         Huvudmeny
                     </button> 
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu">
-                        Annat
+                        <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
                     </button>
-                    <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar-search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                    <button type="button" class="navbar-toggle collapsed pull-left top-bar-search-margin" data-toggle="collapse" data-target="#navbar-search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
                 </div>
                 <div class="collapse navbar-collapse navbar-center" id="navbar-menu">
                   <ul class="nav navbar-nav navbar-white">
@@ -27,13 +27,20 @@
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Inställningar <span class="caret"></span></a>
                       <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Språk</a></li>
                         <li><a href="#">Textstorlek</a></li>
                         <li><a href="#">Kontrast</a></li>
                         <li class="divider"></li>
                         <li><a href="#">Hjälp</a></li>
                       </ul>
                     </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Languages <span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">Deutsch</a></li>
+                        <li><a href="#">Svenska</a></li>
+                      </ul>
+                    </li>                      
                   </ul>
                 </div><!-- /.navbar-collapse -->
                 <div class="collapse navbar-collapse navbar-center" id="navbar-main">
@@ -52,7 +59,7 @@
             <div class="container">
                 <div class="row big-panel hidden-xs">
                     <div class="col-xs-4 col-md-2">
-                        <a href="../index.html"><img src="../img/logo.png" class="img-responsive" id="logo"></a>
+                        <img src="img/logo.png" class="img-responsive" id="logo">
                     </div>
                     <div class="col-xs-8 col-md-4">
                         <h3>Sotenäs Kommun</h3>
@@ -60,9 +67,9 @@
                     </div>
                     <div class="col-md-6 col-xs-12 custom-well">
                         <div class="input-group form-search pull-right">
-                          <input type="text" class="form-control search-query four-em-height">
+                          <input type="text" class="form-control search-query four-em-height" placeholder="Sök på ställen, personer, aktiviteter etc.." >
                           <span class="input-group-btn">
-                            <button type="submit" class="btn btn-primary btn-blue four-em-height" data-type="last"><p>Sök</p></button>
+                            <button type="submit"class="btn btn-primary btn-blue four-em-height" data-type="last"><p>Sök</p></button>
                           </span>
                         </div>
                     </div>
@@ -85,68 +92,94 @@
                     <li><a href="#">Räddning</a></li>
                     <li><a href="#">Företagare</a></li>
                   </ul>
-                
             </nav>
             <ol class="breadcrumb">
-                  <li><a href="#">Hem</a></li>
-                  <li><a href="#">Samhällen</a></li>
-                  <li>Hunnebostrand</li>
-                  <li class="pull-right hidden-xs">Dagens datum: 7 december 2014</li>
-                  <li class="pull-right visible-xs">7/12/14</li>
-                </ol>
-            <div class="city-background">
+              <li><a href="#">Hem</a></li>
+              <li class="active">Startsida</li>
+              <li class="pull-right hidden-xs">Dagens datum: 7 december 2014</li>
+              <li class="pull-right visible-xs">7/12/14</li>
+            </ol>
+            <div class="grey-background city-backsground">
                 <div class="container">
-                    <div class="row">
-                        <ul class="nav navbar-nav">
-                            <li><a class="black-text"><strong>Besök:</strong></a></li>
-                            <li><a href="#">Smögen</a></li>
-                            <li><a href="#">Kungshamn</a></li>
-                            <li><a href="#">Väjern</a></li>
-                            <li><a href="#">Bovallstrand</a></li>
-                            <li><a href="#">Malmön</a></li>
-                          </ul>
+                    <div class="col-sm-12 visible-sm visible-xs padding-two-em-top">
+                        <h2>Bo & Miljö</h2>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a href="tillstand.html">Bygglov & Tillstånd</a>
+                            </li>
+                            <li class="list-group-item">
+                                
+                                <a href="tillstand.html">Energi & Klimatrådgivning</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="tillstand.html">Kartor & Mätning</a>
+                                
+                            </li>
+                            <li class="list-group-item">
+                                <a href="tillstand.html">Lediga lägenheter</a>
+                                
+                            </li>
+                            <li class="list-group-item">
+                                <a href="tillstand.html">Lediga tomter</a>
+                                
+                            </li>
+                            
                     </div>
-                    <div class="row white-background">
-                        <div class="col col-sm-8">
-                            <h1>Hunnebostrand</h1>
-                            <div class="well city-info">
-                                <table>
-                                    <tr>
-                                        <td><strong>Innvånare</strong></td>
-                                        <td>2976</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Grundat</strong></td>
-                                        <td>1903</td>
-                                    </tr> 
-                                </table>
-                            </div>   
-                            <h3>Om Hunnebostrand</h3>
-                        <p>Hunnebostrand Innanför Sotefjorden och söder om Bottnafjorden förmedlas mötet mellan havet och den höglönta kusten av en liten skörgörd med större och mindre öar, sund och vikar. Detta skörgördsomröde utgjorde sökerligen förr en viloplats för mönga sjöfarare i vöntan pö ett lögligt tillfölle att ta sig söderut förbi Sote huvud. Hunnebostrand ör ett gammalt fiskelöge belöget pö stranden till hemmandet Hunnebo dörav namnet. I skrift frön 1500-talet skrevs namnet Hundebostrand. Municipalsamhöllet Hunnebostrand bildades genom ett Kungligt brev den 6 februari 1903.</p>
-
-<p>En lömplig hamnplats var, förutom Ulebergshamn, Hunnebostrand, som ligger i en bukt, vars södra del skyddas av nögra utanförliggande öar. Strandremsan innanför bukten begrönsas av de tvö 67 meter höga och tvörbranta Nordre Hoge berg och Söndre Hoge berg. I fonden pö den skölformade dalgöngen ligger Skalberget. Samtliga berg innehöller högklassig granit. Det moderna Hunnebostrand har söledes gles och blandad bebyggelse. Flerfamiljshus, afförsbyggnader och industrilokaler har spröngts in bland de öldre husen. De breda gatorna ör anpassade till bilismens krav och i centrum finns förhöllandevis god service. Som en kontrast till detta ligger den öldsta delen av samhöllet tryckt intill Söndre Hoge berg. De gamla dubbelhusen och den töta sjöbodsraden nere vid stranden bildar ett av de mer völ bevarade bebyggelsepartierna löngs kusten.</p>
-                        </div>
-                        <div class="col-sm-4 padding-two-em-top">
-                          <div class="jumbotron">
-                              <div class="jumbotron-photo">
-                                  <img src="../img/hunnebostrand.jpg">
-                                  <span class="pull-right small-padding"><a href="#">Fler bilder</a></span>
-                              </div>
-                              <div class="jumbotron-contents">
-                                  <h1>Se & göra</h1>
-                                  <h2>Hamnen</h2>
-                                  <p>Hunnebo är känt för sin extremt vackra hamn. Väl värd ett besök.</p>
-                                  <h2>Sotekanalens dag</h2>
-                                  <p>Kanske den största dagen i kommunen. Folk från hela Sverige kommer till Hunnebo för en oförglömlig dag med dans och musik.</p>
-                              </div>
-                            </div>
-                        </div>
-                    </div>
-                    
+                    <div class="col-sm-8 white-background extra-padding">
+                        <p>
+                           I Sotenös kommun bor man nöra naturen och havet. Hör finns ett fritt kustboende som ör mycket speciellt - havet finns alltid nöra och pöverkar det dagliga livet, var du ön bor. Ren luft och unika möjligheter till en rik och varierande fritid med vördefulla kulturupplevelser.
+                        </p>
+                        <p>
+                            Sotenös kommun ör en attraktiv kustkommun med en idyllisk livsmiljö. Hör blandas gammalt med nytt, men öndö traditionellt. Husen följer klassisk förgsöttning, i ljusa pasteller och röda tegeltak. Hör finns böde stadskörnor med livspuls och enskilt belögna hus med egen brygga. Hur vill du leva? Njut, aktiveras, inspireras och engageras i Kungshamn, Hunnebostrand, Bovallstrand, Bohus-Malmön och pö Smögen.
+                        </p>
+                        <img src="img/miljo.jpg" class="img-responsive extra-padding" alt="Sotenäs miljö" />
+                        <p>
+                            Lediga tomter
+I Hunnebostrand finns nu lediga tomter! 
+Intresserad? Stöll dig i Sotenös kommuns tomtkö.
+Vöra lediga tomter
+                        </p>
+                        <p>
+Lediga lögenheter
+Under rubriken Lös mer till höger hittar du en lönk till det kommunala bostadsbolaget.
+                            
+                        </p>
+                        <p>
+                            Vad tycker du?
+ör du nyfiken pö att flytta till Sotenös eller har du redan bestömt dig? Sög vad du tycker och könner! Dina synpunkter ör vördefulla.
+Lömna din synpunkt
+                        </p>
                         
                     </div>
+                    <div class="col-sm-4 hidden-sm hidden-xs">
+                        <h2>Bo & Miljö</h2>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a href="tillstand.html">Bygglov & Tillstånd</a>
+                            </li>
+                            <li class="list-group-item">
+                                
+                                <a href="tillstand.html">Energi & Klimatrådgivning</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="tillstand.html">Kartor & Mätning</a>
+                                
+                            </li>
+                            <li class="list-group-item">
+                                <a href="tillstand.html">Lediga lägenheter</a>
+                                
+                            </li>
+                            <li class="list-group-item">
+                                <a href="tillstand.html">Lediga tomter</a>
+                                
+                            </li>
+                            
+                    </div>
                 </div>
- 
+                
+            </div>
+            
+         
                 <div class="footer">
                   <div class="container">
                     <div class="clearfix">
@@ -167,6 +200,7 @@
                         <dd class="nav-item"><a href="#">Karta</a></dd>
                         <dd class="nav-item"><a href="#">Bo</a></dd>
                         <dd class="nav-item"><a href="#">Räddning</a></dd>
+                        <dd class="nav-item"><a href="#">Företagare</a></dd>
                       </dl>
                       <dl class="footer-nav">
                         <dt class="nav-title">Kontakt</dt>
@@ -175,6 +209,7 @@
                         <dd class="nav-item white-text">45041 Kungshamn</dd>
                         <dd class="nav-item white-text">Växel: 0523-30100</dd>
                       </dl>
+                                
                     </div>
                     <div class="footer-copyright text-center">Copyright © 2014 Hannes Waller. All rights reserved.</div>
                   </div>
