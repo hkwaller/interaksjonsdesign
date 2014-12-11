@@ -242,6 +242,10 @@
         padding-bottom: 2em;
     }
     
+    .move-right {
+        padding-left: 1em;
+    }
+    
 }
 
 @media (min-width: 481px) and (max-width: 1220px) {
@@ -323,3 +327,8 @@
 .time {
     color: #ffa600 !important;
 }
+.sub-background {
+    background: #FFA600;
+}
+
+
