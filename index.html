@@ -3,7 +3,7 @@
         <head>
             <title>Sotenäs Kommun</title>
             <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-            <link rel="stylesheet" href="https://bootflat.github.io/bootflat/css/bootflat.css">
+            <link rel="stylesheet" href="bootflat/css/bootflat.css">
             <link rel="stylesheet" href="css/site.css">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta charset="utf-8">
@@ -27,7 +27,7 @@
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Inställningar <span class="caret"></span></a>
                       <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Textstorlek</a></li>
+                        <li data-toggle="tooltip" data-placement="right" title="Håll in CMD på din dator och tryck på + (plus) för att zooma in. CMD och - (minus) zoomar ut.">><a href="#">Textstorlek</a></li>
                         <li><a href="#" id="contrast">Kontrast</a></li>
                         <li class="divider"></li>
                         <li><a href="#">Hjälp</a></li>
@@ -272,6 +272,10 @@ Bohusläningen har pratat med restaurangens ägare som hed restaurangens ägare 
                 $('#contrast').click(function (){
    $('link[href="css/site.css"]').attr('href','css/style2.css');
 });
+                
+                $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 
 </script>
         </body>

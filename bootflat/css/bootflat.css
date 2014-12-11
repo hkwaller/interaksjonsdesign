@@ -358,6 +358,10 @@ blockquote {
 .tooltip-inner {
   color: white;
   background-color: #434a54;
+    width: 140em !important;
+    padding: 3em 1em;
+    height: 10em;
+    font-size: 1.2em;
 }
 .tooltip.top .tooltip-arrow, .tooltip.top-left .tooltip-arrow, .tooltip.top-right .tooltip-arrow {
   border-top-color: #434a54;
