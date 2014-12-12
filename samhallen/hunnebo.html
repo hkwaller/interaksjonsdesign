@@ -5,6 +5,7 @@
             <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
             <link rel="stylesheet" href="https://bootflat.github.io/bootflat/css/bootflat.css">
             <link rel="stylesheet" href="../css/site.css">
+            <link rel="icon"  type="image/png" href="img/logo.png">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta charset="utf-8">
         </head>
@@ -16,30 +17,37 @@
                         Huvudmeny
                     </button> 
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu">
-                        Annat
+                        <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
                     </button>
-                    <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar-search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                    <button type="button" class="navbar-toggle collapsed pull-left top-bar-search-margin" data-toggle="collapse" data-target="#navbar-search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
                 </div>
                 <div class="collapse navbar-collapse navbar-center" id="navbar-menu">
                   <ul class="nav navbar-nav navbar-white">
                     <li><a href="#">Om Sotenäs</a></li>
-                    <li><a href="#">Kontakt</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Inställningar <span class="caret"></span></a>
                       <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Språk</a></li>
-                        <li><a href="#">Textstorlek</a></li>
-                        <li><a href="#">Kontrast</a></li>
+                        <li class="hidden-xs" data-toggle="tooltip" data-placement="right" title="Håll in CMD på din dator och tryck på + (plus) för att zooma in. CMD och - (minus) zoomar ut.">><a href="#">Textstorlek</a></li>
+                        <li><a href="#" id="contrast">Kontrast</a></li>
                         <li class="divider"></li>
                         <li><a href="#">Hjälp</a></li>
                       </ul>
                     </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Languages <span class="caret"></span></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">Deutsch</a></li>
+                        <li><a href="#">Svenska</a></li>
+                      </ul>
+                    </li>                      
                   </ul>
                 </div><!-- /.navbar-collapse -->
                 <div class="collapse navbar-collapse navbar-center" id="navbar-main">
                   <ul class="nav navbar-nav navbar-white visible-xs">
-                    <li><a href="#">Bo</a></li>
-                    <li><a href="#">Skola</a></li>
+                    <li><a href="../bo.html">Bo</a></li>
+                    <li><a href="../skola.html">Skola</a></li>
                     <li><a href="#">Arbete</a></li>
                     <li><a href="#">Hälsa</a></li>
                     <li><a href="#">Kultur</a></li>
@@ -55,29 +63,29 @@
                         <a href="../index.html"><img src="../img/logo.png" class="img-responsive" id="logo"></a>
                     </div>
                     <div class="col-xs-8 col-md-4">
-                        <h3>Sotenäs Kommun</h3>
-                        <small>En pärla på Sveriges framsida</small>
+                        <h3 class="contrast">Sotenäs Kommun</h3>
+                        <small class="contrast">En pärla på Sveriges framsida</small>
                     </div>
                     <div class="col-md-6 col-xs-12 custom-well">
                         <div class="input-group form-search pull-right">
-                          <input type="text" class="form-control search-query four-em-height">
+                          <input type="text" class="form-control search-query four-em-height" placeholder="Sök på ställen, personer, aktiviteter etc.." >
                           <span class="input-group-btn">
-                            <button type="submit" class="btn btn-primary btn-blue four-em-height" data-type="last"><p>Sök</p></button>
+                            <a href="soek.html"><button type="submit"class="btn btn-primary btn-blue four-em-height" data-type="last"><p>Sök</p></button></a>
                           </span>
                         </div>
                     </div>
                 </div>
             </div>
                 <div class="row visible-xs">
-                            <div class="navbar navbar-white-small small-padding">
+                            <div class="navbar navbar-white-small small-padding contrast">
                                 <img src="img/logo.png" class="small-logo pull-left" alt="Sotenäs" />
                                 <div class="pull-left"><h4>Sotenäs Kommun</h4></div>
                             </div>
                         </div>
             <nav class="navbar navbar-center navbar-main hidden-xs" role="navigation">
                   <ul class="nav navbar-nav">
-                    <li><a href="#">Bo</a></li>
-                    <li><a href="#">Skola</a></li>
+                    <li><a href="bo.html">Bo</a></li>
+                    <li><a href="skola.html">Skola</a></li>
                     <li><a href="#">Arbete</a></li>
                     <li><a href="#">Hälsa</a></li>
                     <li><a href="#">Kultur</a></li>
@@ -85,10 +93,9 @@
                     <li><a href="#">Räddning</a></li>
                     <li><a href="#">Företagare</a></li>
                   </ul>
-                
             </nav>
             <ol class="breadcrumb">
-                  <li><a href="#">Hem</a></li>
+                  <li><a href="index.html">Hem</a></li>
                   <li><a href="#">Samhällen</a></li>
                   <li>Hunnebostrand</li>
                   <li class="pull-right hidden-xs">Dagens datum: 7 december 2014</li>
@@ -98,7 +105,7 @@
                 <div class="container">
                     <div class="row hidden-xs sub-background">
                         <ul class="nav navbar-nav">
-                            <li><a class="black-text"><strong>Besök:</strong></a></li>
+                            <li><a class="white-text"><strong>Besök:</strong></a></li>
                             <li><a href="#" class="white-text">Smögen</a></li>
                             <li><a href="#" class="white-text">Kungshamn</a></li>
                             <li><a href="#" class="white-text">Väjern</a></li>
@@ -186,6 +193,7 @@
                         <dd class="nav-item"><a href="#">Karta</a></dd>
                         <dd class="nav-item"><a href="#">Bo</a></dd>
                         <dd class="nav-item"><a href="#">Räddning</a></dd>
+                        <dd class="nav-item"><a href="#">Företagare</a></dd>
                       </dl>
                       <dl class="footer-nav">
                         <dt class="nav-title">Kontakt</dt>
@@ -193,9 +201,12 @@
                         <dd class="nav-item white-text">Skolgatan 1</dd>
                         <dd class="nav-item white-text">45041 Kungshamn</dd>
                         <dd class="nav-item white-text">Växel: 0523-30100</dd>
+                        <dd class="nav-item white-text"><a href="../kontakt.html">Skicka epost</a></dd>
+                          
                       </dl>
+                                
                     </div>
-                    <div class="footer-copyright text-center">Copyright © 2014 Hannes Waller. All rights reserved.</div>
+                    <div class="footer-copyright text-center">Copyright © 2014 Sotenäs Kommun. All rights reserved.</div>
                   </div>
               </div>
             
