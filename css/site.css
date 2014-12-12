@@ -45,6 +45,13 @@
     
 }
 
+/***************************
+
+    GENERAL HELPER CLASSES
+
+***************************/
+
+
 .white-text {
     color: #fff;
 }
@@ -189,74 +196,7 @@
     font-size: 2em;
 }
 
-@media (min-width: 900px) {
-    .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
-    }
 
-    .navbar .navbar-center {
-        text-align: center;
-    }
-}
-
-@media (max-width: 480px) {
-
-    #logo {
-        width: 120px;
-        height: 100px;
-    }
-    
-    .custom-panel {
-        padding: 0.5em 0 !important;
-        background: #59ABE3;
-        height: 6em !important;
-        margin: 0 0 3em 1.5em !important;
-        color: #fff;
-        cursor: pointer;
-    }
-    
-    .custom-panel h3 {
-        font-size: 1em;
-        font-weight: 400 !important;
-        cursor: pointer;
-    }
-    
-    .weather-jumbo {
-        padding: 1em 1em 3em 3em !important;
-    }
-    
-    .weather-table {
-        font-size: 1.2em !important;
-    }
-    
-    .navbar-main ul li a {
-        color: #fff;
-        height: 2em;
-        font-size: 1em;
-        padding: 1em 1.4em;
-    }
-    
-    .navbar-main ul li:last-child {
-        padding-bottom: 2em;
-    }
-    
-    .move-right {
-        padding-left: 1em;
-    }
-    
-}
-
-@media (min-width: 481px) and (max-width: 1220px) {
-    
-    .navbar-main ul li a {
-        color: #fff;
-        height: 1em;
-        font-size: 1em;
-        padding: 1em 1.4em;
-    }
-}
 .black-text {
     color: #000;
 }
@@ -339,4 +279,83 @@
 }
 .search-button {
     background: #B27400;
+}
+
+
+/***************************
+
+    RESPONSIVE
+
+***************************/
+
+@media (min-width: 900px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-center {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+
+    #logo {
+        width: 120px;
+        height: 100px;
+    }
+    
+    .custom-panel {
+        padding: 0.5em 0 !important;
+        background: #59ABE3;
+        height: 6em !important;
+        margin: 0 0 3em 1.5em !important;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .custom-panel h3 {
+        font-size: 1em;
+        font-weight: 400 !important;
+        cursor: pointer;
+    }
+    
+    .weather-jumbo {
+        padding: 1em 1em 3em 3em !important;
+    }
+    
+    .weather-table {
+        font-size: 1.2em !important;
+    }
+    
+    .navbar-main ul li a {
+        color: #fff;
+        height: 2em;
+        font-size: 1em;
+        padding: 1em 1.4em;
+    }
+    
+    .navbar-main ul li:last-child {
+        padding-bottom: 2em;
+    }
+    
+    .move-right {
+        padding-left: 1em;
+    }
+    
+}
+
+@media (min-width: 481px) and (max-width: 1220px) {
+    .weather-table {
+        font-size: 1.2em !important;
+    }
+    
+    .navbar-main ul li a {
+        color: #fff;
+        height: 1em !important;
+        font-size: 1em;
+        padding: 1em 1.4em;
+    }
 }
